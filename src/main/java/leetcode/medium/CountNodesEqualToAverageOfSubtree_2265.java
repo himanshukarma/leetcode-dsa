@@ -23,3 +23,22 @@ public class CountNodesEqualToAverageOfSubtree_2265 {
         return new int[]{subtreeSum, subtreeCount};
     }
 }
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
