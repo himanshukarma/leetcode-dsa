@@ -7,11 +7,10 @@ public class MinimumSumOfSquaredDifference_2333 {
         int[] nums1 = { 1, 2, 3, 4 };
         int[] nums2 = { 2, 10, 20, 19 };
 
-        System.out.println(new MinimumSumOfSquaredDifference_2333().minSumSquareDiff(
-                nums1, nums2, 0, 0));
+        System.out.println(minSumSquareDiff(nums1, nums2, 0, 0));
     }
 
-    public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
+    public static long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
         int[] d = new int[100001];
         long k = (long) k1 + k2, sum = 0;
         int max = 0;
